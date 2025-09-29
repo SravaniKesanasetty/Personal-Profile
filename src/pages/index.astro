@@ -1,16 +1,10 @@
 ---
-
+// src/pages/index.astro
+import BaseLayout from "../layouts/baselayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout title="Home">
+    <h4>Welcome To Firebase</h4>
+    <p>Welcome to my personal web profile!</p>
+    <p>This site is built with Astro and hosts various interactive apps.</p>
+</BaseLayout>
